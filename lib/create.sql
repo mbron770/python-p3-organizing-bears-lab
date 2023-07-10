@@ -5,8 +5,9 @@ CREATE TABLE bears (
 	sex TEXT, 
 	color TEXT, 
 	temperament TEXT, 
-	alive BOOLEAN 
-); 
+	alive INTEGER
+	-- alive INTEGER CHECK(alive == 0 or alive == 1) DEFAULT 1
+);
 
 
 
