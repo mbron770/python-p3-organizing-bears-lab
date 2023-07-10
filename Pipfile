@@ -6,6 +6,9 @@ name = "pypi"
 [packages]
 pytest = "7.1.2"
 ipdb = "0.13.9"
+and = "*"
+pipenv = "*"
+shell = "*"
 
 [dev-packages]
 
